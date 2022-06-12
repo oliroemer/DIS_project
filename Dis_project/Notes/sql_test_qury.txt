@@ -1,0 +1,136 @@
+
+
+Drop TABLE if EXISTS specs; 
+
+
+CREATE TABLE specs (Brand VARCHAR(50),
+					Model VARCHAR(50),
+					Processor_brand VARCHAR(50),
+					Processor_name VARCHAR(50),
+					Processor_gen INTEGER,
+					ram VARCHAR(50),
+					ram_type VARCHAR(50),
+					ssd VARCHAR(50),
+					hdd VARCHAR(50),
+					os VARCHAR(50),
+					os_bit VARCHAR(50),
+					Graphic_card VARCHAR(50),
+					Weight VARCHAR(50),
+					Display_size VARCHAR(50),
+					Warranty VARCHAR(50),
+					Touchscreen VARCHAR(50),
+					msoffice VARCHAR(50),
+					latest_price INTEGER,
+					old_price INTEGER,
+					discount INTEGER,
+					Star_rating INTEGER,
+					Ratings INTEGER,
+					reviews INTEGER
+				   );
+
+
+
+INSERT INTO public.specs (Brand,
+                        Model,
+                        Processor_brand ,
+                        Processor_name ,
+                        Processor_gen ,
+                        ram ,
+                        ram_type ,
+                        ssd ,
+                        hdd ,
+                        os ,
+                        os_bit ,
+                        Graphic_card ,
+                        Weight ,
+                        Display_size ,
+                        Warranty ,
+                        Touchscreen ,
+                        msoffice ,
+                        latest_price ,
+                        old_price ,
+                        discount ,
+                        Star_rating ,
+                        Ratings ,
+                        reviews ) VALUES ('Lenovo', 'A6-9225', 'AMD', 'A6-9225 Processor', 10, 4, 'DDR4', '0 GB', '1024 GB', 'Windows', '64-bit', 0, 'ThinNlight', 'Missing', 0, 'No', 'No', 2499.0, 3279.0, 23, 3.7, 63, 12);
+
+INSERT INTO public.specs (Brand,
+                        Model,
+                        Processor_brand ,
+                        Processor_name ,
+                        Processor_gen ,
+                        ram ,
+                        ram_type ,
+                        ssd ,
+                        hdd ,
+                        os ,
+                        os_bit ,
+                        Graphic_card ,
+                        Weight ,
+                        Display_size ,
+                        Warranty ,
+                        Touchscreen ,
+                        msoffice ,
+                        latest_price ,
+                        old_price ,
+                        discount ,
+                        Star_rating ,
+                        Ratings ,
+                        reviews ) VALUES ('Lenovo', 'Ideapad', 'AMD', 'APU Dual', 10, 4, 'DDR4', '0 GB', '512 GB', 'Windows', '64-bit', 0, 'Casual', 'Missing', 0, 'No', 'No', 1959.0, 2132.5, 8, 3.6, 1894, 256);
+
+
+
+INSERT INTO public.specs (Brand,
+                        Model,
+                        Processor_brand ,
+                        Processor_name ,
+                        Processor_gen ,
+                        ram ,
+                        ram_type ,
+                        ssd ,
+                        hdd ,
+                        os ,
+                        os_bit ,
+                        Graphic_card ,
+                        Weight ,
+                        Display_size ,
+                        Warranty ,
+                        Touchscreen ,
+                        msoffice ,
+                        latest_price ,
+                        old_price ,
+                        discount ,
+                        Star_rating ,
+                        Ratings ,
+                        reviews ) VALUES ('Lenovo', 'A6-9225', 'AMD', 'A6-9225 Processor', 10, 4, 'DDR4', '0 GB', '1024 GB', 'Windows', '64-bit', 0, 'ThinNlight', 'Missing', 0, 'No', 'No', 2499.0, 3279.0, 23, 3.7, 63, 12);
+
+INSERT INTO public.specs (Brand,
+                        Model,
+                        Processor_brand ,
+                        Processor_name ,
+                        Processor_gen ,
+                        ram ,
+                        ram_type ,
+                        ssd ,
+                        hdd ,
+                        os ,
+                        os_bit ,
+                        Graphic_card ,
+                        Weight ,
+                        Display_size ,
+                        Warranty ,
+                        Touchscreen ,
+                        msoffice ,
+                        latest_price ,
+                        old_price ,
+                        discount ,
+                        Star_rating ,
+                        Ratings ,
+                        reviews ) VALUES ('Lenovo', 'Ideapad', 'AMD', 'APU Dual', 10, 4, 'DDR4', '0 GB', '512 GB', 'Windows', '64-bit', 0, 'Casual', 'Missing', 0, 'No', 'No', 1959.0, 2132.5, 8, 3.6, 1894, 256);
+						
+
+select * from specs; 
+
+SELECT TOP 5 s.discount FROM specs as s ; 
+
+

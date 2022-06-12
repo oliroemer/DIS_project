@@ -1,0 +1,17 @@
+{
+
+"SECRET_KEYS":{
+    "APP_SECRET_KEY": "SomeRandomKey1234"
+}, 
+"PATHS":{
+    "LAPTOP_DATA": "INSERT_PATH_TO_CSV_FILE"
+}, 
+"DATABASE":{
+    "dbname": "postgres",
+    "schema": "Laptop_specs",
+    "user": "postgres",
+    "host": "localhost",
+    "password": "INSERT_POSTGRESQL_PASSWORD"
+}
+
+}
